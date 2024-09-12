@@ -1,0 +1,57 @@
+/* Taustaväri ja tekstin väri */
+body {
+    background-color: #fff8f0; /* Vaaleampi tausta, jotta tumman oranssi erottuu paremmin */
+    color: #333;
+}
+
+/* Navigaation värit */
+.navbar {
+    background-color: #ff6f00; /* Tumman oranssi */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffeb3b; /* Keltainen hover-efekti */
+}
+
+/* Karusellin värit */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #ff6f00; /* Tumman oranssi */
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+/* Korttien värit */
+.card {
+    border: 1px solid #ff6f00; /* Tumman oranssi reuna */
+}
+
+.card-title {
+    color: #ff6f00; /* Tumman oranssi otsikko */
+}
+
+/* Haitarin värit */
+.card-header {
+    background-color: #ff6f00; /* Tumman oranssi tausta */
+    color: #fff; /* Valkoinen teksti */
+}
+
+.card-body {
+    background-color: #fff; /* Valkoinen tausta */
+}
+
+/* Taulukon värit */
+.table thead th {
+    background-color: #ff6f00; /* Tumman oranssi taustaväri */
+    color: #fff; /* Valkoinen teksti */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #ffe0b2; /* Vaaleampi oranssi riveille */
+}
